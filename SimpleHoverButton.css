@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    background: #121212;
+
+}
+
+.button {
+    font-weight: 600;
+    padding: 1.2rem 3.6rem;
+    border-radius: .2rem;
+    color: #fff;
+    background: #d000ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.button svg {
+    margin-left: .4rem;
+    transition: transform .2s;
+    width:  1.2rem;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:hover svg {
+    transform: translateX(.4rem);
+}
